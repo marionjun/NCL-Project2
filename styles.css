@@ -8,7 +8,16 @@
 }
 body {
     display: flex;
+	justify-content: center;
+	align-items: center;
     flex-wrap: nowrap;
+	background: linear-gradient(23deg, #4dffd1, #ffb54d, #4dceff, #e898ff, #ffb498, #ff98f7);
+    background-size: 1200% 1200%;
+    -webkit-animation: AnimationName 10s ease infinite;
+    -moz-animation: AnimationName 10s ease infinite;
+    -o-animation: AnimationName 10s ease infinite;
+    animation: AnimationName 10s ease infinite;
+	
   }
   
 .canvas {
@@ -18,13 +27,9 @@ body {
   flex-direction: column;
   width: 700px;
   height: 700px;
+  padding-top: 100px;
   
- background: linear-gradient(23deg, #4dffd1, #ffb54d, #4dceff, #e898ff, #ffb498, #ff98f7);
-    background-size: 1200% 1200%;
-    -webkit-animation: AnimationName 10s ease infinite;
-    -moz-animation: AnimationName 10s ease infinite;
-    -o-animation: AnimationName 10s ease infinite;
-    animation: AnimationName 10s ease infinite;
+
 }
 @-webkit-keyframes AnimationName {
     0%{background-position:0% 40%}
